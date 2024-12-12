@@ -28,9 +28,21 @@ ___
     - [ ] Business Mailing Adress
     - [ ] Business Phone Number
 - [ ] CSS Design
-- [ ] ... <!-- TODO: Showcase CSS Design-->
+  - [ ] Eyevisuals
+  - [ ] Simple and low Flowtext
+  - [ ] Using one Styleguide
+    - [ ] Font:
+    - [ ] Color:
+    - [ ] Width:
+    - [ ] Margin:
+    - [ ] Layout:
+    - [ ] Widget:
+    - [ ] ... <!-- TODO: Showcase CSS Design-->
 - [ ] Javascript
-- [ ] ... <!-- TODO: Showcase Backend (Javascript)-->
+  - [ ] Emailing Service
+  - [ ] Redirects to the contact information
+  - [ ] Google Maps and
+  - [ ] ... <!-- TODO: Showcase Backend (Javascript)-->
 
 ___
 
