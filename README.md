@@ -18,7 +18,7 @@ ___
 
 ### Tasks
 
-- [ ] Showcase UI Design
+- [x] Showcase UI Design
 - [ ] Built Repository in hosted Server
 - [ ] HTML structure
   - [ ] Use Assets in UI
