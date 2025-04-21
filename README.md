@@ -48,12 +48,11 @@ ___
 
 > ___
 >
-> ### Used Resources
+> ### Used Resources {#used-resources}
 >
 > Products:
 >
-> - [Hostinger](/https://www.hostinger.com/) (Webserver and Security Host)
-> - [Wordpress](https://wordpress.org/) (Site Text Script)
+> - [Bootstrap 5](https://getbootstrap.com/docs): see [more](...)
 >
 > Languages:
 >
@@ -62,3 +61,29 @@ ___
 > - Javascript
 >
 > ___
+
+## Bootstrap {#bootstrap-shortdocs}
+
+This paragraph is a __TLDR to Bootstrap 5 Documentary__
+
+To use Bootstrap correctly, read the documentary linked in the list [on the top](#used-resources)
+
+Down below, there is a list to all JS Components existing in Bootstrap 5
+
+### JS components (Also in the [Documentary](https://getbootstrap.com/docs))
+
+Curious which components explicitly require our JavaScript and Popper? If you’re at all unsure about the general page structure, keep reading for an example page template.
+
+- [Accordions](https://getbootstrap.com/docs/5.3/components/accordion/) for extending our Collapse plugin
+- Alerts for dismissing
+- Buttons for toggling states and checkbox/radio functionality
+- Carousel for all slide behaviors, controls, and indicators
+- Collapse for toggling visibility of content
+- Dropdowns for displaying and positioning (also requires Popper)
+- Modals for displaying, positioning, and scroll behavior
+- Navbar for extending our Collapse and Offcanvas plugins to implement responsive behaviors
+- Navs with the Tab plugin for toggling content panes
+- Offcanvases for displaying, positioning, and scroll behavior
+- Scrollspy for scroll behavior and navigation updates
+- Toasts for displaying and dismissing
+- Tooltips and popovers for displaying and positioning (also requires Popper)
