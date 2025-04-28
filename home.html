@@ -20,23 +20,51 @@
         <p class="description">Hier ist eine kurze Beschreibung über mich.</p>
         <h2 class="pointerTitle">Hautbehandlung</h2>
         <p>So kann ich ihre Haut verbessern:</p>
-            <div class="accordion">
-                <div class="item">Sugaring
-                    <p class="description">Hier ist eine kurze Beschreibung über die Hautbehandlung.</p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Accordion Item #1
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                 </div>
-                <div class="item">Waxing
-                    <p class="description hidden">Hier ist eine kurze Beschreibung über die Hautbehandlung.</p>
-                </div>
-                <div class="item">Inhalt 3
-                    <p class="description hidden">Hier ist eine kurze Beschreibung über die Hautbehandlung.</p>
                 </div>
             </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false">
+                    Accordion Item #2
+                </button>
+                </h2>
+                <div class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        TEXT 2 Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+        </div>
         <h2>Kontakt</h2>
         <p>Du kannst mich unter <a href="mailto:swetlana@swb.de">swetlana@swb.com</a> erreichen.</p>
         </main>
     <footer>
         <p>&copy; 2025 | Sugar Wax and Beauty</p>
     </footer>
-    <script src="stylingscript.js"></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script> <!-- Bootstrap JS and dependencies -->
 </body>
 </html>
