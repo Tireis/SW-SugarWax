@@ -1,0 +1,149 @@
+/* RULESETS */
+
+/* Root Colors */
+
+:root {
+  --primary-1: #EEEBDB;
+  --primary-2: #A97D21;
+  --primary-3: #301C11;
+
+  --primary-font-family: italiana, junge, sans-serif;
+
+  --underline-width: 1px;
+}
+
+/* OVERALL PAGE STYLINGS */
+
+html{
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary-2);
+  /* 
+    The following line is used for the typical section gradient:
+
+      background-image: linear-gradient(to bottom, var(--primary-1), var(--primary-2));
+
+  */
+}
+
+body {
+  margin: 0%;
+}
+
+
+/* NAVBAR SECTION */
+
+/* 
+#navLogo {
+  
+} 
+*/
+
+#homepageNavbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-image: linear-gradient(to bottom, var(--primary-1), var(--primary-2));
+}
+
+#navbarLinkList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: var(--primary-font-family);
+  font-size: 28pt;
+  color: black;
+  margin: 0;
+  padding: 0;
+  --nav-gap: 5rem;
+  gap: var(--nav-gap);
+  align-items: center;
+}
+
+.navbarLinkListObj {
+  position: relative;
+}
+
+.navbarLinkListObj:not(:first-child)::before {
+  content: "";
+  background: black;
+  position: absolute;
+  top: 15%;
+  left: calc(var(--nav-gap) / -2);
+  width: 2px;
+  height: 28pt;
+}
+
+.navLinks {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+
+.navLinks::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background: black;
+  transition: 0.5s ease;
+}
+
+.navLinks:hover::after {
+  width: 100%;
+}
+
+/* HERO SECTION */
+
+#heroBanner {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #EEEBDB;
+  border-radius: 75pt;
+}
+
+#heroLogoDiv {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background: linear-gradient(270deg, #EEEBDB -5%, #A97D21, #301C11);
+  border-radius: 75pt;
+}
+
+#heroBanner img {
+  width: 50%;
+}
+
+#heroDesc {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+#heroTitle {
+  font-family: var(--primary-font-family);
+  font-size: clamp(32pt, 1vw, 64pt);
+  font-weight: 100;
+  margin: 0%;
+}
+
+#heroParagraph {
+  font-family: junge;
+  font-size: clamp(16pt, 1vw, 48pt);
+  font-weight: 400;
+  margin: 0%;
+  margin-top: -5px;
+}
