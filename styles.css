@@ -30,22 +30,38 @@ body {
   margin: 0%;
 }
 
+.sectionTitle {
+  width: 90%;
+  height: min-content;
+  top: 0%;
+  left: 10%;
+}
+
+.sectionTitle h2 {
+  background-color: #050505;
+  font-family: var(--primary-font-family);
+  color: #ffffff;
+  font-weight: 100;
+  width: 10%;
+  text-align: center;
+}
+
 
 /* NAVBAR SECTION */
 
-/* 
+
 #navLogo {
-  
+  width: clamp(20vw, 10vw);
 } 
-*/
+
 
 #homepageNavbar {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
-  padding-top: 3%;
-  padding-bottom: 5%;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
   background-image: linear-gradient(to bottom, var(--primary-1), var(--primary-2));
 }
 
@@ -54,7 +70,7 @@ body {
   flex-direction: row;
   list-style: none;
   font-family: var(--primary-font-family);
-  font-size: 28pt;
+  font-size: clamp(8pt, 24pt, 28pt);
   color: black;
   margin: 0;
   padding: 0;
@@ -107,9 +123,9 @@ body {
   width: auto;
   margin-left: 7.5%;
   margin-right: 7.5%;
+  margin-top: 5%;
   align-items: center;
   justify-content: space-around;
-  background-color: #EEEBDB;
   border-radius: 75pt;
 }
 
@@ -122,28 +138,110 @@ body {
 }
 
 #heroBanner img {
-  width: 50%;
+  width: 75%;
 }
 
-#heroDesc {
+/* #heroDesc {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 20px;
-}
+} */
 
-#heroTitle {
+/* #heroTitle {
   font-family: var(--primary-font-family);
   font-size: clamp(32pt, 1vw, 64pt);
   font-weight: 100;
   margin: 0%;
-}
+} */
 
-#heroParagraph {
+/* #heroParagraph {
   font-family: junge;
   font-size: clamp(16pt, 1vw, 48pt);
   font-weight: 400;
   margin: 0%;
   margin-top: -5px;
+} */
+
+/* About Me Section */
+
+#aboutMeSect {
+  background-image: url("pics/Honeypuddle.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  position: relative;
+}
+
+#aboutMeSect::before {
+  z-index: 1;
+  content: "";
+  width: 100%;
+  height: 20vh;
+  background: linear-gradient(180deg, #A97D21 +5%, transparent);
+  position: relative;
+}
+
+#aboutMeBanner {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 50%;
+}
+
+#aboutMeSect::after {
+  position: relative;
+  z-index: 1;
+  content: "";
+  width: 100%;
+  height: 20vh;
+  background: linear-gradient(180deg, transparent -5%, #A97D21);
+}
+
+#contactSect {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+#contactBannerImg {
+  width: 50%;
+  height: auto;
+}
+
+/* Legals & Privacy Section */
+
+#legals {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#legalsLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20%;
+  margin-bottom: 5%;
+}
+
+#legals a {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: var(--primary-font-family);
+  font-size: clamp(8pt, 24pt, 28pt);
+  color: white;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-decoration: none;
 }
