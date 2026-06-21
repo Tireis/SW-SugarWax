@@ -245,3 +245,155 @@ body {
   align-items: center;
   text-decoration: none;
 }
+
+/* MOBILE RESPONSIVE STYLES */
+
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  #homepageNavbar {
+    flex-direction: column;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    gap: 1.5rem;
+  }
+
+  #navLogo {
+    width: clamp(40vw, 50vw, 60vw);
+  }
+
+  #navbarLinkList {
+    --nav-gap: 1.5rem;
+    font-size: clamp(10pt, 16pt, 18pt);
+    gap: var(--nav-gap);
+  }
+
+  .navbarLinkListObj:not(:first-child)::before {
+    height: 18pt;
+  }
+
+  /* Touch-friendly spacing */
+  .navLinks {
+    padding: 0.75rem 0.5rem;
+    display: block;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hero Section */
+  #heroBanner {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 3%;
+    border-radius: 20pt;
+  }
+
+  #heroBanner img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Section Titles */
+  .sectionTitle {
+    width: 100%;
+    left: 0%;
+    padding-left: 1rem;
+  }
+
+  .sectionTitle h2 {
+    width: auto;
+    padding: 0.5rem 1rem;
+    font-size: clamp(16pt, 20pt, 24pt);
+  }
+
+  /* About Section */
+  #aboutMeSect::before {
+    height: 10vh;
+  }
+
+  #aboutMeSect::after {
+    height: 10vh;
+  }
+
+  #aboutMeBanner {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 85%;
+    max-width: 100%;
+  }
+
+  /* Contact Section */
+  #contactSect {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  #contactBannerImg {
+    width: 85%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  #legals {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3vh;
+  }
+
+  #legalsLinks {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  #legals a {
+    font-size: clamp(10pt, 14pt, 16pt);
+    padding: 0.75rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Improve contrast and readability */
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small devices */
+  #homepageNavbar {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  #navLogo {
+    width: clamp(35vw, 45vw, 50vw);
+  }
+
+  #navbarLinkList {
+    --nav-gap: 0.75rem;
+    font-size: clamp(9pt, 13pt, 15pt);
+  }
+
+  .navbarLinkListObj:not(:first-child)::before {
+    display: none;
+  }
+
+  #heroBanner {
+    border-radius: 15pt;
+  }
+
+  #aboutMeBanner,
+  #contactBannerImg {
+    width: 95%;
+  }
+
+  .sectionTitle h2 {
+    font-size: clamp(14pt, 18pt, 20pt);
+  }
+}
