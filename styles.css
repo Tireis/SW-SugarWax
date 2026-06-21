@@ -10,6 +10,8 @@
   --primary-font-family: italiana, junge, sans-serif;
 
   --underline-width: 1px;
+  
+  --honeypuddle-url: url("pics/Honeypuddle.jpg");
 }
 
 /* OVERALL PAGE STYLINGS */
@@ -167,7 +169,7 @@ body {
 /* About Me Section */
 
 #aboutMeSect {
-  background-image: url("pics/Honeypuddle.jpg");
+  background-image: var(--honeypuddle-url);
   display: flex;
   flex-direction: column;
   justify-content: center;

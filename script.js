@@ -1,13 +1,17 @@
 // Base URL for images stored on CDN
 const IMG_BASE_URL = 'https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/';
+const IMG_BASE_URL_GENERAL = 'https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/';
 
 // Function to construct image URLs
 function getImageUrl(filename) {
   return IMG_BASE_URL + filename;
 }
 
-// Replace all image src attributes on page load
+// Set CSS variables for background images
 document.addEventListener('DOMContentLoaded', function() {
+  // Set CSS variable for honeypuddle background image
+  document.documentElement.style.setProperty('--honeypuddle-url', `url('${IMG_BASE_URL_GENERAL}Honeypuddle.jpg')`);
+
   // Update navbar logo
   const navLogo = document.getElementById('navLogo');
   if (navLogo) navLogo.src = getImageUrl('NavbarLogo.svg');
