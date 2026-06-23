@@ -251,3 +251,59 @@ body {
 #legals a:hover {
   color: var(--primary-3);
 }
+
+/* LEGALS AND PRIVACY PROTECTION */
+
+#PP_Title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26pt;
+  font-family: var(--primary-font-family);
+}
+
+.ppDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ppDiv h2 {
+  align-self: center;
+  font-size: 24pt;
+}
+
+.ppDiv p, ul{
+  width: 50%;
+  align-self: center;
+  font-size: 16pt;
+}
+
+#PP_References {
+  list-style-type: none;
+  font-size: 20pt;
+}
+
+#PP_References :visited, :link {
+  color: var(--primary-3);
+  text-decoration: none;
+}
+
+#PP_References :hover {
+  color: #EEEBDB;
+}
+
+#legals_Title {
+  font-size: 26pt;
+  font-family: var(--primary-font-family);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legals_Div {
+  font-size: 16pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
