@@ -64,8 +64,9 @@
 html{
   height: 100%;
   width: 100%;
-  background: var(--primary-1);
-  background: linear-gradient(180deg, var(--primary-1) 0%, var(--primary-2) 8%);;
+  background: linear-gradient(180deg, var(--primary-1) -100%, var(--primary-2) 8%);;
+  background: var(--primary-2);
+  background-repeat: no-repeat;
   /* 
     The following line is used for the typical section gradient:
 
