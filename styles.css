@@ -12,6 +12,51 @@
   --underline-width: 1px;
   
   --honeypuddle-url: url("https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/Honeypuddle.jpg");
+
+  --font-size-l: 32pt;
+  --font-size-m: 24pt;
+  --font-size-s: 16pt;
+
+}
+
+@media screen and (max-width: 900px) {
+  .desktop {
+    display: none !important;
+  }
+
+
+  :root {
+    --font-size-l: 32pt;
+    --font-size-m: 28pt;
+    --font-size-s: 24pt;
+  }
+}
+
+@media screen and (width > 900px) {
+  .mobile{
+    display: none !important;
+  }
+
+  .burgerLine {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #1a1a1a;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  }
+
+  .burgerLine:nth-child(1){
+    top: 16px;
+  }
+  .burgerLine:nth-child(2){
+    top: 24px;
+  }
+  .burgerLine:nth-child(3){
+    top: 32px;
+  }
 }
 
 /* OVERALL PAGE STYLINGS */
@@ -72,11 +117,11 @@ body {
   flex-direction: row;
   list-style: none;
   font-family: var(--primary-font-family);
-  font-size: clamp(8pt, 24pt, 28pt);
+  font-size: var(--font-size-l);
   color: black;
   margin: 0;
   padding: 0;
-  --nav-gap: 5rem;
+  --nav-gap: 50px;
   gap: var(--nav-gap);
   align-items: center;
 }
@@ -240,7 +285,8 @@ body {
   flex-direction: row;
   list-style: none;
   font-family: var(--primary-font-family);
-  font-size: clamp(8pt, 24pt, 28pt);
+  /* EDIT TEXT SIZE */
+  font-size: var(--font-size-s);
   color: white;
   margin: 0;
   margin: 2%;
@@ -258,7 +304,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 26pt;
+  /* EDIT TEXT SIZE */
+  font-size: var(--font-size-m);
   font-family: var(--primary-font-family);
 }
 
@@ -270,18 +317,21 @@ body {
 
 .ppDiv h2 {
   align-self: center;
-  font-size: 24pt;
+  /* EDIT TEXT SIZE */
+  font-size: var(--font-size-m);
 }
 
 .ppDiv p, ul{
   width: 50%;
   align-self: center;
-  font-size: 16pt;
+  /* EDIT TEXT SIZE */
+  font-size: var(--font-size-s);
 }
 
 #PP_References {
   list-style-type: none;
-  font-size: 20pt;
+  /* EDIT TEXT SIZE */
+  font-size: var(--font-size-m);
 }
 
 #PP_References :visited, :link {
@@ -294,7 +344,8 @@ body {
 }
 
 #legals_Title {
-  font-size: 26pt;
+  /* EDIT TEXT SIZE */
+  font-size: var(--font-size-l);
   font-family: var(--primary-font-family);
   display: flex;
   flex-direction: column;
@@ -302,7 +353,8 @@ body {
 }
 
 .legals_Div {
-  font-size: 16pt;
+  /* EDIT TEXT SIZE */
+  font-size: var(--font-size-s);
   display: flex;
   flex-direction: column;
   align-items: center;
