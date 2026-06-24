@@ -26,9 +26,9 @@
 
 
   :root {
-    --font-size-l: 32pt;
-    --font-size-m: 28pt;
-    --font-size-s: 24pt;
+    --font-size-l: 24pt;
+    --font-size-m: 20pt;
+    --font-size-s: 18pt;
   }
 }
 
@@ -90,7 +90,7 @@ body {
   font-family: var(--primary-font-family);
   color: #ffffff;
   font-weight: 100;
-  width: 10%;
+  width: 25%;
   text-align: center;
 }
 
