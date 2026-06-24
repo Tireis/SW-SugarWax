@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +16,15 @@
   <!-- Sections: "Über mich"; "Standort"; "Kontakt" -->
 
   <nav id="homepageNavbar">
-    <a href="#"><img id="navLogo" src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/NavbarLogo.svg" alt="Sweta SugarWax Logo"/></a>
-    <ul id="navbarLinkList">
+    <a href="index.html">
+      <picture>
+        <!-- Desktop -->
+        <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/NavbarLogo.svg" media="(min-width: 1000px)">
+        <!-- Mobile -->
+        <img id="navLogo" src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileNavbarLogo.svg" alt="Sweta SugarWax Logo"/>
+      </picture>
+    </a>
+    <ul id="navbarLinkList" class="desktop">
       <li class="navbarLinkListObj"><a href="#aboutMeSect" class="navLinks">Über mich</a></li>
       <li class="navbarLinkListObj"><a href="#contactSect" class="navLinks">Standort</a></li>
       <li class="navbarLinkListObj"><a href="#contactSect" class="navLinks">Kontakt</a></li>
@@ -30,14 +37,24 @@
       <h1 id="heroTitle">Effiziente Haarentfernung</h1>
       <p id="heroParagraph">Pflegen sie ihre Haut und erhalten sie eine elegante Körperbehandlung</p>
     </div> -->
-    <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Hero.svg" alt="Sweta SugarWax Hero Banner">
+    <picture>
+      <!-- Desktop -->
+      <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Hero.svg" media="(min-width: 1000px)">
+      <!-- Mobile -->
+      <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileHero.svg" alt="Sweta SugarWax Hero Banner">
+    </picture>
   </section>
 
   <section id="aboutMeSect">
     <div class="sectionTitle">
       <h2>Über mich</h2>
     </div>
-    <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/About.svg" id="aboutMeBanner" alt="Über mich - Sweta SugarWax">
+    <picture>
+      <!-- Desktop -->
+      <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/About.svg" media="(min-width: 1000px)">
+      <!-- Mobile -->
+      <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileAbout.svg" id="aboutMeBanner" alt="Über mich - Sweta SugarWax">
+    </picture>
   </section>
 
 
@@ -45,7 +62,10 @@
     <div class="sectionTitle">
       <h2>Kontakt</h2>
     </div>
-    <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/ContactBanner.svg" alt="Kontakt - Sweta SugarWax" id="contactBannerImg">
+    <picture>
+      <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/ContactBanner.svg" media="(min-width: 1000px)">
+      <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileContactBanner.svg" alt="Kontakt - Sweta SugarWax" id="contactBannerImg">
+    </picture>
   </section>
 
   <footer id="legals">

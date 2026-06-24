@@ -32,6 +32,7 @@ body {
   margin: 0%;
 }
 
+
 .sectionTitle {
   width: 90%;
   height: min-content;
@@ -54,8 +55,7 @@ body {
 
 #navLogo {
   width: clamp(20vw, 10vw);
-} 
-
+}
 
 #homepageNavbar {
   display: flex;
@@ -140,7 +140,7 @@ body {
 }
 
 #heroBanner img {
-  width: 75%;
+  width: 100%;
 }
 
 /* #heroDesc {
@@ -190,7 +190,7 @@ body {
 #aboutMeBanner {
   margin-top: 10vh;
   margin-bottom: 10vh;
-  width: 50%;
+  width: 100%;
 }
 
 #aboutMeSect::after {
@@ -214,7 +214,7 @@ body {
 }
 
 #contactBannerImg {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -231,7 +231,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 20%;
+  width: 50%;
   margin-bottom: 5%;
 }
 
