@@ -11,14 +11,21 @@
   <link rel="icon" href="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Favicon.svg">
 </head>
 <body>
-    <nav id="homepageNavbar">
-        <a href="index.html"><img id="navLogo" src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/NavbarLogo.svg" alt="Sweta SugarWax Logo"/></a>
-        <ul id="navbarLinkList">
-        <li class="navbarLinkListObj"><a href="index.html#aboutMeSect" class="navLinks">Über mich</a></li>
-        <li class="navbarLinkListObj"><a href="index.html#location" class="navLinks">Standort</a></li>
-        <li class="navbarLinkListObj"><a href="index.html#contactSect" class="navLinks">Kontakt</a></li>
-        </ul>
-    </nav>
+     <nav id="homepageNavbar">
+    <a href="index.html">
+      <picture>
+        <!-- Desktop -->
+        <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/NavbarLogo.svg" media="(min-width: 900px)">
+        <!-- Mobile -->
+        <img id="navLogo" src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileNavbarLogo.svg" alt="Sweta SugarWax Logo"/>
+      </picture>
+    </a>
+    <ul id="navbarLinkList" class="desktop">
+      <li class="navbarLinkListObj"><a href="#aboutMeSect" class="navLinks">Über mich</a></li>
+      <li class="navbarLinkListObj"><a href="#contactSect" class="navLinks">Standort</a></li>
+      <li class="navbarLinkListObj"><a href="#contactSect" class="navLinks">Kontakt</a></li>
+    </ul>
+  </nav>
 
     <div id="legals_Title">
         <h1>Impressum</h1>

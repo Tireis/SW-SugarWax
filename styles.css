@@ -64,7 +64,8 @@
 html{
   height: 100%;
   width: 100%;
-  background-color: var(--primary-2);
+  background: var(--primary-1);
+  background: linear-gradient(180deg, var(--primary-1) 0%, var(--primary-2) 8%);;
   /* 
     The following line is used for the typical section gradient:
 
@@ -304,7 +305,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* EDIT TEXT SIZE */
   font-size: var(--font-size-m);
   font-family: var(--primary-font-family);
 }
@@ -317,20 +317,17 @@ body {
 
 .ppDiv h2 {
   align-self: center;
-  /* EDIT TEXT SIZE */
   font-size: var(--font-size-m);
 }
 
 .ppDiv p, ul{
   width: 50%;
   align-self: center;
-  /* EDIT TEXT SIZE */
   font-size: var(--font-size-s);
 }
 
 #PP_References {
   list-style-type: none;
-  /* EDIT TEXT SIZE */
   font-size: var(--font-size-m);
 }
 
@@ -344,8 +341,7 @@ body {
 }
 
 #legals_Title {
-  /* EDIT TEXT SIZE */
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-m);
   font-family: var(--primary-font-family);
   display: flex;
   flex-direction: column;
@@ -353,7 +349,6 @@ body {
 }
 
 .legals_Div {
-  /* EDIT TEXT SIZE */
   font-size: var(--font-size-s);
   display: flex;
   flex-direction: column;
