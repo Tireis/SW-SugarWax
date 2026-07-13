@@ -349,6 +349,205 @@ body {
   align-items: center;
 }
 
+/* =====================
+   BEHANDLUNGEN SECTION (Sugaring & Waxing)
+   ===================== */
+
+#behandlungenSect {
+  margin-top: 15vh;
+  padding: 0 7.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#infoCardsWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-top: 4vh;
+}
+
+@media screen and (max-width: 900px) {
+  #infoCardsWrapper {
+    flex-direction: column;
+  }
+}
+
+.infoCard {
+  flex: 1;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: rgba(5, 5, 5, 0.75);
+  font-family: var(--primary-font-family);
+}
+
+.infoCardHeader {
+  background-color: var(--primary-3);
+  padding: 22px 28px;
+  border-bottom: 2px solid var(--primary-2);
+}
+
+.infoCardTitle {
+  font-family: var(--primary-font-family);
+  font-size: var(--font-size-l);
+  font-weight: 100;
+  color: var(--primary-1);
+  margin: 0 0 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.infoCardSubtitle {
+  font-family: junge, sans-serif;
+  font-size: 13pt;
+  color: var(--primary-2);
+  margin: 0;
+  font-style: italic;
+}
+
+.infoCardBody {
+  padding: 24px 28px;
+}
+
+.infoCardBody p {
+  font-family: junge, sans-serif;
+  font-size: 13pt;
+  line-height: 1.75;
+  color: #d0c9b8;
+  margin: 0 0 14px 0;
+}
+
+.infoCardList {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.infoCardList li {
+  font-family: junge, sans-serif;
+  font-size: 13pt;
+  color: #d0c9b8;
+  padding: 9px 0 9px 26px;
+  position: relative;
+  border-bottom: 1px solid rgba(169, 125, 33, 0.2);
+}
+
+.infoCardList li:last-child {
+  border-bottom: none;
+}
+
+.infoCardList li::before {
+  content: "▪";
+  color: var(--primary-2);
+  position: absolute;
+  left: 0;
+  top: 7px;
+  font-size: 17px;
+}
+
+/* =====================
+   FAQ ACCORDION SECTION
+   ===================== */
+
+#faqSect {
+  margin-top: 12vh;
+  padding: 0 7.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#faqAccordion {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4vh;
+}
+
+.accordionItem {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.accordionBtn {
+  width: 100%;
+  background-color: #1a1a1a;
+  border: none;
+  padding: 18px 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: var(--primary-font-family);
+  font-size: var(--font-size-s);
+  color: var(--primary-1);
+  text-align: left;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: background-color 0.25s ease;
+  gap: 16px;
+}
+
+.accordionBtn:hover {
+  background-color: var(--primary-3);
+}
+
+.accordionBtn[aria-expanded="true"] {
+  background-color: var(--primary-3);
+  border-bottom: 2px solid var(--primary-2);
+}
+
+.accordionIcon {
+  font-size: 22pt;
+  color: var(--primary-2);
+  font-weight: 300;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.accordionBtn[aria-expanded="true"] .accordionIcon {
+  transform: rotate(45deg);
+}
+
+.accordionContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background-color: rgba(5, 5, 5, 0.65);
+}
+
+.accordionContent.open {
+  max-height: 700px;
+}
+
+.accordionContent ul {
+  list-style: none;
+  padding: 16px 26px 20px 26px;
+  margin: 0;
+}
+
+.accordionContent ul li {
+  font-family: junge, sans-serif;
+  font-size: 13pt;
+  color: #d0c9b8;
+  padding: 9px 0 9px 26px;
+  position: relative;
+  border-bottom: 1px solid rgba(169, 125, 33, 0.15);
+}
+
+.accordionContent ul li:last-child {
+  border-bottom: none;
+}
+
+.accordionContent ul li::before {
+  content: "▪";
+  color: var(--primary-2);
+  position: absolute;
+  left: 0;
+  top: 7px;
+  font-size: 17px;
+}
+
 .legals_Div {
   font-size: var(--font-size-s);
   display: flex;
