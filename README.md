@@ -87,3 +87,158 @@ Curious which components explicitly require our JavaScript and Popper? If you’
 - Scrollspy for scroll behavior and navigation updates
 - Toasts for displaying and dismissing
 - Tooltips and popovers for displaying and positioning (also requires Popper)
+
+
+## CHANGELOG
+
+### 25.07.2026
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html)
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css#1-1), lines 1 to 100
+
+Searched for text `accordion` (`**/styles.css`), 14 results
+
+Searched for regex `Sugaring und Waxing Detmold|Detmold|geo|robots|sitemap|canonical|og:` (`**/*.html`), 4 results
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css#440-440), lines 440 to 556
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/legals.html#1-1), lines 1 to 55
+
+No matches found. Your search pattern might be excluded completely by either the search.exclude settings or .*ignore files.
+If you believe that it should have results, you can check into the .*ignore files and the exclude setting (here are some excluded patterns for reference:[**/node_modules,**/bower_components,**/*.code-search]).
+Then if you want to include those files you can call the tool again by setting "includeIgnoredFiles" to true.
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css)
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website)
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/README.md)
+
+Analyzing your answers...
+
+Searched for regex `<h1|<h2|<h3` (`**/index.html`), 7 results
+
+Created 6 todos
+
+Now fixing the accordion mobile overflow issue in CSS: 
+
+Replacing 43 lines with 56 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css)
+
+
+```
+
+```
+
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css#495-495), lines 495 to 560
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css#560-560), lines 560 to 569
+
+Replacing 5 lines with 21 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css)
+
+
+```
+
+```
+
+
+Starting: *Add SEO meta tags, canonical, OG/Twitter, geo to index.html* (2/6)
+
+Now implementing the SEO head changes, structured data, H1, heading hierarchy, and alt text improvements in index.html: 
+
+Replacing 6 lines with 59 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html)
+
+
+```
+
+```
+
+
+Replacing 23 lines with 24 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html)
+
+
+```
+
+```
+
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html#218-218), lines 218 to 240
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html#265-265), lines 265 to 296
+
+Replacing 5 lines with 11 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html)
+
+
+```
+
+```
+Now add the corresponding CSS for `.visuallyHidden` and `#contactInfo`: 
+
+Replacing 6 lines with 19 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css)
+
+
+```
+
+```
+
+
+Replacing 4 lines with 26 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css)
+
+
+```
+
+```
+Now creating `robots.txt` and `sitemap.xml`, and updating legals.html / privacypolicy.html with canonical links and better titles: 
+
+Created [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/robots.txt)
+
+ 
+
+Created [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/sitemap.xml)
+
+ 
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/privacypolicy.html#1-1), lines 1 to 10
+
+Replacing 4 lines with 6 lines in [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/legals.html), [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/privacypolicy.html)
+
+
+```
+
+```
+
+```
+
+```
+
+
+Checked [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html), [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/styles.css), [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/legals.html), [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/privacypolicy.html), no problems found
+
+No errors. Let me do a final read-through of the head section and the accordion markup in index.html to confirm everything is consistent. 
+
+Read [](file:///c%3A/Users/wm02934/Desktop/_PERS%C3%96NLICH/Swetlana_Sugaring_and_Waxing/SwetaSugarWax-Website/index.html#1-1), lines 1 to 115
+
+All changes look good. Let me finalize the todo list and save a repo memory note. 
+
+Completed: *Add SEO meta tags, canonical, OG/Twitter, geo to index.html* (2/6)
+
+Created memory file [](file:///c%3A/Users/wm02934/AppData/Roaming/Code/User/workspaceStorage/93249141673b270ce601423119dccf07/GitHub.copilot-chat/memory-tool/memories/repo/seo-and-layout.md)
+
+## Summary
+
+**Mobile accordion overflow fix** (styles.css): The root cause was `.accordionBtn` using `width: 100%` combined with `padding: 18px 26px` under the default `content-box` model, making the button ~52px wider than its container — clipped/overflowing on narrow mobile screens. Fixed by adding `box-sizing: border-box` to `.accordionBtn`, `.accordionContent`, and `.accordionContent ul`, plus `overflow-wrap`/`word-break` on the text and list items so long question titles wrap instead of spilling out, and a tighter padding/letter-spacing rule for screens ≤480px.
+
+**SEO optimization for "Sugaring und Waxing Detmold"** (index.html):
+- Rewrote `<title>` and meta description to lead with the target keyword phrase.
+- Added canonical URL, `robots` meta, geo tags (Detmold), Open Graph + Twitter Card tags.
+- Added a `BeautySalon` LocalBusiness JSON-LD block (address, phone, email, geo, Instagram `sameAs`) alongside the existing FAQPage schema.
+- The page had **no real `<h1>`** (only one commented-out inside the hero section) — added an accessible, visually-hidden `<h1>` with the keyword phrase.
+- Fixed heading hierarchy: "Sugaring"/"Waxing" card titles changed from `<h2>` to `<h3>` (proper nesting under the "Behandlungen" `<h2>`).
+- Improved image `alt` text to include "Detmold" naturally.
+- Added a visible NAP (name/address/phone/email) block in the contact section — important local-SEO trust signal that was previously missing from the page.
+- Created robots.txt and sitemap.xml at the repo root, and added canonical links/titles to legals.html and privacypolicy.html.
+
+These use the domain `https://sugarwaxandbeauty.com/` and Instagram handle you provided — update those in the files if they change. Note: ranking #1 for a query also depends on external factors (Google Business Profile, reviews, backlinks) beyond on-page changes.
+
+Made changes.

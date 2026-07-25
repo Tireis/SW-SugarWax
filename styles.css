@@ -262,6 +262,109 @@ body {
   background: linear-gradient(180deg, transparent -5%, #A97D21);
 }
 
+/* =====================
+   STANDORT / GOOGLE MAPS SECTION
+   ===================== */
+
+#standortSect {
+  margin-top: 15vh;
+  padding: 0 7.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#standortWrapper {
+  display: flex;
+  margin-top: 4vh;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+#standortAddressCard {
+  flex: 0 0 38%;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, var(--primary-2), var(--primary-3));
+  color: var(--primary-1);
+  padding: 40px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+
+#standortHeading {
+  font-family: var(--primary-font-family);
+  font-size: var(--font-size-l);
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: var(--primary-1);
+  margin: 0;
+}
+
+.standortAddress {
+  font-family: junge, sans-serif;
+  font-size: 13pt;
+  line-height: 1.6;
+  color: #f1ead9;
+  margin: 0;
+}
+
+.standortNote {
+  font-family: junge, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #e7dcc3;
+  margin: 0;
+}
+
+.standortNote a {
+  color: var(--primary-1);
+  text-decoration: underline;
+}
+
+.standortNote a:hover {
+  color: #ffffff;
+}
+
+#standortMapWrapper {
+  flex: 1;
+  min-height: 420px;
+}
+
+#standortMap {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  border: 0;
+  display: block;
+}
+
+@media screen and (max-width: 900px) {
+  #standortWrapper {
+    flex-direction: column;
+    border-radius: 28px;
+  }
+
+  #standortAddressCard {
+    flex: none;
+    width: 100%;
+    padding: 28px 24px;
+    gap: 14px;
+  }
+
+  #standortMapWrapper {
+    width: 100%;
+    height: 320px;
+    min-height: 320px;
+  }
+
+  #standortMap {
+    height: 320px;
+    min-height: 320px;
+  }
+}
+
 #contactSect {
   width: 100%;
   height: 20%;
