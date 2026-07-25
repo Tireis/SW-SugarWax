@@ -87,6 +87,19 @@ body {
   left: 10%;
 }
 
+/* Visually hidden but accessible / crawlable content (e.g. SEO heading) */
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .sectionTitle h2 {
   background-color: #050505;
   font-family: var(--primary-font-family);
@@ -263,6 +276,28 @@ body {
 #contactBannerImg {
   width: 100%;
   height: auto;
+}
+
+#contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4vh;
+  font-family: junge, sans-serif;
+  font-style: normal;
+  font-size: var(--font-size-s);
+  color: var(--primary-3);
+  text-align: center;
+}
+
+#contactInfo a {
+  color: var(--primary-3);
+  text-decoration: none;
+}
+
+#contactInfo a:hover {
+  text-decoration: underline;
 }
 
 /* Legals & Privacy Section */
@@ -470,6 +505,7 @@ body {
 
 .accordionBtn {
   width: 100%;
+  box-sizing: border-box;
   background-color: #1a1a1a;
   border: none;
   padding: 18px 26px;
@@ -485,6 +521,13 @@ body {
   text-transform: uppercase;
   transition: background-color 0.25s ease;
   gap: 16px;
+}
+
+.accordionBtn > span:first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .accordionBtn:hover {
@@ -512,6 +555,8 @@ body {
 .accordionContent {
   max-height: 0;
   overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
   transition: max-height 0.4s ease;
   background-color: rgba(5, 5, 5, 0.65);
 }
@@ -521,6 +566,7 @@ body {
 }
 
 .accordionContent ul {
+  box-sizing: border-box;
   list-style: none;
   padding: 16px 26px 20px 26px;
   margin: 0;
@@ -533,6 +579,8 @@ body {
   padding: 9px 0 9px 26px;
   position: relative;
   border-bottom: 1px solid rgba(169, 125, 33, 0.15);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .accordionContent ul li:last-child {
@@ -546,6 +594,22 @@ body {
   left: 0;
   top: 7px;
   font-size: 17px;
+}
+
+@media screen and (max-width: 480px) {
+  .accordionBtn {
+    padding: 14px 16px;
+    gap: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .accordionContent ul {
+    padding: 12px 16px 16px 16px;
+  }
+
+  .accordionContent ul li {
+    padding: 8px 0 8px 20px;
+  }
 }
 
 .legals_Div {
