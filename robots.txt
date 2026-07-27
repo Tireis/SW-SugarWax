@@ -1,4 +1,32 @@
 User-agent: *
 Allow: /
 
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CloudflareBrowserRenderingCrawler
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+
 Sitemap: https://sugarwaxandbeauty.com/sitemap.xml
