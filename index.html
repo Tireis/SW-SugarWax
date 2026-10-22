@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.add('js');</script>
   <title>Sugaring & Waxing Detmold | Sweta SugarWax – Professionelle Haarentfernung</title>
   <meta name="description" content="Sugaring und Waxing in Detmold ✓ natürliche, schonende Haarentfernung für seidig glatte Haut ✓ individuelle Beratung ✓ Jetzt Termin bei Sweta SugarWax in Detmold vereinbaren.">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#A97D21">
   <link rel="canonical" href="https://sugarwaxandbeauty.com/">
 
-  <!-- Local SEO / Geo -->
+  <!-- Local SEO -->
   <meta name="geo.region" content="DE-NW">
   <meta name="geo.placename" content="Detmold">
-  <meta name="geo.position" content="51.9366;8.8781">
-  <meta name="ICBM" content="51.9366, 8.8781">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -21,15 +21,22 @@
   <meta property="og:title" content="Sugaring & Waxing Detmold | Sweta SugarWax">
   <meta property="og:description" content="Sugaring und Waxing in Detmold – natürliche, schonende Haarentfernung für seidig glatte Haut. Jetzt Termin vereinbaren.">
   <meta property="og:url" content="https://sugarwaxandbeauty.com/">
-  <meta property="og:image" content="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Hero.svg">
+  <meta property="og:image" content="https://sugarwaxandbeauty.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Sugaring & Waxing Detmold | Sweta SugarWax">
   <meta name="twitter:description" content="Sugaring und Waxing in Detmold – natürliche, schonende Haarentfernung für seidig glatte Haut.">
-  <meta name="twitter:image" content="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Hero.svg">
+  <meta name="twitter:image" content="https://sugarwaxandbeauty.com/assets/og-image.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Junge&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Favicon.svg">
   <link rel="stylesheet" href="styles.css">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -75,22 +82,17 @@
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "name": "Sweta SugarWax",
-    "image": "https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Hero.svg",
+    "image": "https://sugarwaxandbeauty.com/assets/og-image.png",
     "url": "https://sugarwaxandbeauty.com/",
     "telephone": "+49 176 36343040",
     "email": "swetab@web.de",
-    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Memelstraße 48",
-      "postalCode": "32756",
+      "streetAddress": "Rödlinghauser 2a",
+      "postalCode": "32760",
       "addressLocality": "Detmold",
+      "addressRegion": "NRW",
       "addressCountry": "DE"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 51.9366,
-      "longitude": 8.8781
     },
     "areaServed": "Detmold",
     "sameAs": [
@@ -99,231 +101,323 @@
     "description": "Professionelles Sugaring und Waxing in Detmold. Natürliche, schonende Haarentfernung für langanhaltend glatte Haut."
   }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Junge&display=swap" rel="stylesheet">
-  <link rel="icon" href="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Favicon.svg">
 </head>
 <body>
-  <!-- Navbar Section -->
-  <!-- The navbar should redirect directly to the different sections of the website -->
-  <!-- Sections: "Über mich"; "Standort"; "Kontakt" -->
+  <a href="#main" class="skipLink">Zum Inhalt springen</a>
 
-  <!-- TODO: MAKE ALL NAVBARS THE SAME!! -->
+  <!-- Icon-Sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M5 4h3.5l1.7 4.3-2.2 1.4a11 11 0 0 0 5.3 5.3l1.4-2.2L19 14.5V18a2 2 0 0 1-2 2A14 14 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7.5 8 6 8-6"/></g></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="0.6" fill="currentColor"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M4 20l1.3-4.2A8 8 0 1 1 8.4 19L4 20z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  </svg>
 
-  <nav id="homepageNavbar">
-    <a href="index.html">
-      <picture>
-        <!-- Desktop -->
-        <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/NavbarLogo.svg" media="(min-width: 900px)">
-        <!-- Mobile -->
-        <img id="navLogo" src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileNavbarLogo.svg" alt="Sweta SugarWax Logo"/>
-      </picture>
-    </a>
-    <ul id="navbarLinkList" class="desktop">
-      <li class="navbarLinkListObj"><a href="#aboutMeSect" class="navLinks">Über mich</a></li>
-      <li class="navbarLinkListObj"><a href="#standortSect" class="navLinks">Standort</a></li>
-      <li class="navbarLinkListObj"><a href="#contactSect" class="navLinks">Kontakt</a></li>
+  <!-- Header: bei allen Seiten identisch -->
+  <header id="homepageNavbar">
+    <div class="navInner">
+      <a class="navLogo" href="index.html" aria-label="Sweta SugarWax – zur Startseite">
+        <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/NavbarLogo.svg" alt="Swetlana Tabert – Beauty / Sugar / Wax" width="333" height="56">
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <ul id="navbarLinkList">
+          <li><a href="index.html#aboutMeSect" class="navLinks">Über mich</a></li>
+          <li><a href="index.html#behandlungenSect" class="navLinks">Behandlungen</a></li>
+          <li><a href="index.html#standortSect" class="navLinks">Standort</a></li>
+          <li><a href="index.html#contactSect" class="navLinks">Kontakt</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--primary navCta" href="https://wa.me/4917636343040?text=Hallo%20Swetlana%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20vereinbaren." target="_blank" rel="noopener">Termin anfragen</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menü öffnen">
+        <span class="burgerLine"></span><span class="burgerLine"></span><span class="burgerLine"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobileMenu" id="mobileMenu">
+    <ul>
+      <li><a class="menuLink" href="index.html#aboutMeSect">Über mich</a></li>
+      <li><a class="menuLink" href="index.html#behandlungenSect">Behandlungen</a></li>
+      <li><a class="menuLink" href="index.html#faqSect">FAQ</a></li>
+      <li><a class="menuLink" href="index.html#standortSect">Standort</a></li>
+      <li><a class="menuLink" href="index.html#contactSect">Kontakt</a></li>
     </ul>
-  </nav>
+    <a class="btn btn--gold" href="https://wa.me/4917636343040?text=Hallo%20Swetlana%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20vereinbaren." target="_blank" rel="noopener">
+      <svg aria-hidden="true"><use href="#i-chat"/></svg>Termin per WhatsApp
+    </a>
+  </div>
 
-  <section id="heroBanner">
-    <h1 class="visuallyHidden">Sugaring & Waxing in Detmold – Sweta SugarWax</h1>
-    <!-- <img src="pics/SVG/HeroBanner.svg" alt="ST">
-    <div id="heroDesc">
-      <h1 id="heroTitle">Effiziente Haarentfernung</h1>
-      <p id="heroParagraph">Pflegen sie ihre Haut und erhalten sie eine elegante Körperbehandlung</p>
-    </div> -->
-    <picture>
-      <!-- Desktop -->
-      <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/Hero.svg" media="(min-width: 900px)">
-      <!-- Mobile -->
-      <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileHero.svg" alt="Sugaring und Waxing in Detmold - Sweta SugarWax">
-    </picture>
-  </section>
+  <main id="main">
 
-  <section id="aboutMeSect">
-    <div class="sectionTitle">
-      <h2>Über mich</h2>
-    </div>
-    <picture>
-      <!-- Desktop -->
-      <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/About.svg" media="(min-width: 900px)">
-      <!-- Mobile -->
-      <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileAbout.svg" id="aboutMeBanner" alt="Über mich - Sweta SugarWax in Detmold">
-    </picture>
-  </section>
-
-
-  <!-- Sugaring & Waxing Info Sections -->
-  <section id="behandlungenSect" aria-labelledby="behandlungenTitle">
-    <div class="sectionTitle">
-      <h2 id="behandlungenTitle">Behandlungen</h2>
-    </div>
-    <div id="infoCardsWrapper">
-
-      <!-- Sugaring -->
-      <article class="infoCard" id="sugaringCard">
-        <div class="infoCardHeader">
-          <h3 class="infoCardTitle">Sugaring</h3>
-          <p class="infoCardSubtitle">Natürliche Haarentfernung mit Zuckerpaste</p>
+    <!-- Hero -->
+    <section id="heroBanner">
+      <div class="container">
+        <div class="heroCard reveal">
+          <div class="heroBrand">
+            <img src="assets/logo-white.svg" alt="Swetlana Tabert – Beauty / Sugar / Wax" width="440" height="311" fetchpriority="high">
+          </div>
+          <div class="heroText">
+            <p class="eyebrow">Beauty / Sugar / Wax</p>
+            <h1>Sugaring &amp; Waxing in Detmold</h1>
+            <p class="lead">Effiziente Haarentfernung: Pflegen Sie Ihre Haut und erhalten Sie eine elegante Körperbehandlung.</p>
+            <div class="btnRow">
+              <a class="btn btn--primary" href="https://wa.me/4917636343040?text=Hallo%20Swetlana%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20vereinbaren." target="_blank" rel="noopener">
+                <svg aria-hidden="true"><use href="#i-chat"/></svg>Termin anfragen
+              </a>
+              <a class="btn btn--ghost" href="tel:+4917636343040">
+                <svg aria-hidden="true"><use href="#i-phone"/></svg>Anrufen
+              </a>
+            </div>
+            <ul class="trustStrip">
+              <li>Natürliche Zutaten</li>
+              <li>Hygiene &amp; Sorgfalt</li>
+              <li>Individuelle Beratung</li>
+              <li>Termine nach Absprache</li>
+            </ul>
+          </div>
         </div>
-        <div class="infoCardBody">
-          <p>Sugaring ist eine <strong>sanfte, natürliche Methode zur Haarentfernung</strong>, die auf einer Paste aus Zucker, Zitronensaft und Wasser basiert. Diese traditionelle Enthaarungstechnik entfernt Haare gründlich ab der Wurzel – für eine langanhaltend glatte Haut ohne chemische Zusätze.</p>
-          <p>Die Zuckerpaste wird <strong>in Haarwuchsrichtung</strong> aufgetragen und entgegen des Haarwuchses abgezogen. Dadurch wird die Haarwurzel schonend gelöst, was eingewachsene Haare reduziert und die Haut langfristig pflegt und verfeinert.</p>
-          <ul class="infoCardList">
-            <li>100 % natürliche Inhaltsstoffe – ideal für empfindliche Haut</li>
-            <li>Schonender als klassisches Waxing</li>
-            <li>Vermindert das Einwachsen von Haaren</li>
-            <li>Nachwachsende Haare werden feiner und weniger dicht</li>
-            <li>Ergebnis hält 3–6 Wochen an</li>
-          </ul>
+      </div>
+    </section>
+
+    <!-- Über mich -->
+    <section id="aboutMeSect" class="section on-dark" aria-labelledby="aboutTitle">
+      <div class="container aboutGrid">
+        <div class="portrait reveal">
+          <img src="assets/swetlana.jpg" alt="Swetlana Tabert in weißer Arbeitskleidung vor ihren Pflegeprodukten" width="1199" height="1600" loading="lazy">
         </div>
-      </article>
-
-      <!-- Waxing -->
-      <article class="infoCard" id="waxingCard">
-        <div class="infoCardHeader">
-          <h3 class="infoCardTitle">Waxing</h3>
-          <p class="infoCardSubtitle">Professionelle Haarentfernung mit Warmwachs</p>
-        </div>
-        <div class="infoCardBody">
-          <p>Waxing ist eine bewährte Methode zur <strong>professionellen Haarentfernung</strong>, bei der Warmwachs auf die Haut aufgetragen und anschließend samt der Haarzwiebel abgezogen wird. Das Ergebnis ist eine <strong>glatte, gepflegte Haut</strong> – sofort und ohne störende Stoppeln.</p>
-          <p>Durch regelmäßiges Waxing werden nachwachsende Haare mit der Zeit <strong>feiner und schwächer</strong>. Ein Behandlungsintervall von 3 bis 6 Wochen reduziert den Haarwuchs dauerhaft und sorgt für langanhaltende Pflege.</p>
-          <ul class="infoCardList">
-            <li>Effektive Entfernung auch kurzer und feiner Haare</li>
-            <li>Haarzwiebel wird vollständig mit entfernt</li>
-            <li>Nachwachsende Haare werden feiner und schwächer</li>
-            <li>Empfohlenes Intervall: alle 3–6 Wochen</li>
-            <li>Langanhaltend glatte und gepflegte Haut</li>
-          </ul>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- FAQ Accordion Section -->
-  <section id="faqSect" aria-labelledby="faqTitle">
-    <div class="sectionTitle">
-      <h2 id="faqTitle">FAQ</h2>
-    </div>
-    <div id="faqAccordion">
-
-      <div class="accordionItem">
-        <button class="accordionBtn" aria-expanded="false" aria-controls="faq1">
-          <span>Wie erfolgt die Behandlung beim Waxing?</span>
-          <span class="accordionIcon" aria-hidden="true">+</span>
-        </button>
-        <div class="accordionContent" id="faq1" role="region">
-          <ul>
-            <li>Beim Waxing werden die Haare mit Warmwachs samt der Haarzwiebel entfernt</li>
-            <li>Durch das Waxing werden nachwachsende Haare feiner und schwächer</li>
-            <li>Ein regelmäßiges Waxing alle 3 bis 6 Wochen hilft, den Haarwuchs dauerhaft zu verringern</li>
-            <li>Nach einem Waxing können Hautreaktionen (kleine rote Punkte) auftreten, die nach kurzer Zeit wieder verschwinden</li>
-            <li>Damit Haare beim Nachwachsen nicht einwachsen, empfiehlt sich regelmäßiges Hautpeeling</li>
-            <li>Regelmäßiges Peeling trägt abgestorbene Hautschuppen ab und öffnet verstopfte Poren</li>
+        <div class="aboutText reveal">
+          <p class="eyebrow">Über mich</p>
+          <h2 id="aboutTitle"><span>Ich bin</span><span>Swetlana Tabert</span></h2>
+          <p class="tagline">Spezialisiert auf Sugaring und Waxing</p>
+          <p>Bei meiner Arbeit lege ich besonders großen Wert auf Qualität, Hygiene und sorgfältiges Arbeiten. Mir ist wichtig, dass sich meine Kunden bei mir wohlfühlen und mit dem Ergebnis rundum zufrieden sind.</p>
+          <ul class="valueList">
+            <li>Qualität</li>
+            <li>Hygiene</li>
+            <li>Sorgfalt</li>
           </ul>
         </div>
       </div>
+    </section>
 
-      <div class="accordionItem">
-        <button class="accordionBtn" aria-expanded="false" aria-controls="faq2">
-          <span>Was sollte ich vor der Behandlung beachten?</span>
-          <span class="accordionIcon" aria-hidden="true">+</span>
-        </button>
-        <div class="accordionContent" id="faq2" role="region">
-          <ul>
-            <li>Lassen Sie die Haare auf mindestens 4 bis 5 Millimeter anwachsen</li>
-            <li>Verzichten Sie 24 Stunden vorher auf ein Sonnenbad oder Solarium</li>
-            <li>Verwenden Sie keine fettigen Bodylotions oder öligen Pflegeprodukte</li>
-            <li>Führen Sie ein Peeling durch, damit die Haut gereinigt und vorbereitet wird</li>
-          </ul>
+    <!-- Behandlungen -->
+    <section id="behandlungenSect" class="section" aria-labelledby="behandlungenTitle">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <p class="eyebrow">Behandlungen</p>
+          <h2 id="behandlungenTitle">Sugaring &amp; Waxing</h2>
+          <p>Zwei bewährte Methoden für glatte, gepflegte Haut – auf Wunsch mit persönlicher Beratung.</p>
+        </div>
+        <div id="infoCardsWrapper">
+
+          <article class="infoCard reveal" id="sugaringCard">
+            <div class="infoCardHeader">
+              <h3 class="infoCardTitle">Sugaring</h3>
+              <p class="infoCardSubtitle">Natürliche Haarentfernung mit Zuckerpaste</p>
+            </div>
+            <div class="infoCardBody">
+              <p>Sugaring ist eine <strong>sanfte, natürliche Methode zur Haarentfernung</strong>, die auf einer Paste aus Zucker, Zitronensaft und Wasser basiert. Diese traditionelle Enthaarungstechnik entfernt Haare gründlich ab der Wurzel – für eine langanhaltend glatte Haut ohne chemische Zusätze.</p>
+              <p>Die Zuckerpaste wird <strong>in Haarwuchsrichtung</strong> aufgetragen und entgegen des Haarwuchses abgezogen. Dadurch wird die Haarwurzel schonend gelöst, was eingewachsene Haare reduziert und die Haut langfristig pflegt und verfeinert.</p>
+              <ul class="diamondList">
+                <li>100 % natürliche Inhaltsstoffe – ideal für empfindliche Haut</li>
+                <li>Schonender als klassisches Waxing</li>
+                <li>Vermindert das Einwachsen von Haaren</li>
+                <li>Nachwachsende Haare werden feiner und weniger dicht</li>
+                <li>Ergebnis hält 3–6 Wochen an</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="infoCard reveal" id="waxingCard">
+            <div class="infoCardHeader">
+              <h3 class="infoCardTitle">Waxing</h3>
+              <p class="infoCardSubtitle">Professionelle Haarentfernung mit Warmwachs</p>
+            </div>
+            <div class="infoCardBody">
+              <p>Waxing ist eine bewährte Methode zur <strong>professionellen Haarentfernung</strong>, bei der Warmwachs auf die Haut aufgetragen und anschließend samt der Haarzwiebel abgezogen wird. Das Ergebnis ist eine <strong>glatte, gepflegte Haut</strong> – sofort und ohne störende Stoppeln.</p>
+              <p>Durch regelmäßiges Waxing werden nachwachsende Haare mit der Zeit <strong>feiner und schwächer</strong>. Ein Behandlungsintervall von 3 bis 6 Wochen reduziert den Haarwuchs dauerhaft und sorgt für langanhaltende Pflege.</p>
+              <ul class="diamondList">
+                <li>Effektive Entfernung auch kurzer und feiner Haare</li>
+                <li>Haarzwiebel wird vollständig mit entfernt</li>
+                <li>Nachwachsende Haare werden feiner und schwächer</li>
+                <li>Empfohlenes Intervall: alle 3–6 Wochen</li>
+                <li>Langanhaltend glatte und gepflegte Haut</li>
+              </ul>
+            </div>
+          </article>
+
         </div>
       </div>
+    </section>
 
-      <div class="accordionItem">
-        <button class="accordionBtn" aria-expanded="false" aria-controls="faq3">
-          <span>Was sollte ich nach der Behandlung beachten?</span>
-          <span class="accordionIcon" aria-hidden="true">+</span>
-        </button>
-        <div class="accordionContent" id="faq3" role="region">
-          <ul>
-            <li>Vermeiden Sie einen Tag lang Sonnenstrahlung, Solarium, Sauna und Schwimmbad</li>
-            <li>Verzichten Sie einen Tag auf sportliche Aktivitäten</li>
-            <li>Verwenden Sie unmittelbar danach keine chemischen bzw. alkoholischen Pflegeprodukte</li>
-            <li>Wenden Sie ein kühlendes, feuchtigkeitsspendendes Aloe-Vera-Gel zur Hautberuhigung an</li>
-            <li>Führen Sie zweimal pro Woche ein Peeling der enthaarten Hautpartien durch</li>
-          </ul>
+    <!-- FAQ -->
+    <section id="faqSect" class="section" aria-labelledby="faqTitle">
+      <div class="container faqLayout">
+        <div class="sectionHead reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faqTitle">Häufige Fragen</h2>
+          <p>Alles Wichtige vor und nach Ihrer Behandlung auf einen Blick.</p>
+        </div>
+        <div id="faqAccordion" class="reveal">
+
+          <div class="accordionItem">
+            <h3>
+              <button class="accordionBtn" id="faq1Btn" aria-expanded="false" aria-controls="faq1">
+                <span>Wie erfolgt die Behandlung beim Waxing?</span>
+                <span class="accordionIcon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordionContent" id="faq1" role="region" aria-labelledby="faq1Btn">
+              <div>
+                <ul>
+                  <li>Beim Waxing werden die Haare mit Warmwachs samt der Haarzwiebel entfernt</li>
+                  <li>Durch das Waxing werden nachwachsende Haare feiner und schwächer</li>
+                  <li>Ein regelmäßiges Waxing alle 3 bis 6 Wochen hilft, den Haarwuchs dauerhaft zu verringern</li>
+                  <li>Nach einem Waxing können Hautreaktionen (kleine rote Punkte) auftreten, die nach kurzer Zeit wieder verschwinden</li>
+                  <li>Damit Haare beim Nachwachsen nicht einwachsen, empfiehlt sich regelmäßiges Hautpeeling</li>
+                  <li>Regelmäßiges Peeling trägt abgestorbene Hautschuppen ab und öffnet verstopfte Poren</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordionItem">
+            <h3>
+              <button class="accordionBtn" id="faq2Btn" aria-expanded="false" aria-controls="faq2">
+                <span>Was sollte ich vor der Behandlung beachten?</span>
+                <span class="accordionIcon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordionContent" id="faq2" role="region" aria-labelledby="faq2Btn">
+              <div>
+                <ul>
+                  <li>Lassen Sie die Haare auf mindestens 4 bis 5 Millimeter anwachsen</li>
+                  <li>Verzichten Sie 24 Stunden vorher auf ein Sonnenbad oder Solarium</li>
+                  <li>Verwenden Sie keine fettigen Bodylotions oder öligen Pflegeprodukte</li>
+                  <li>Führen Sie ein Peeling durch, damit die Haut gereinigt und vorbereitet wird</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordionItem">
+            <h3>
+              <button class="accordionBtn" id="faq3Btn" aria-expanded="false" aria-controls="faq3">
+                <span>Was sollte ich nach der Behandlung beachten?</span>
+                <span class="accordionIcon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordionContent" id="faq3" role="region" aria-labelledby="faq3Btn">
+              <div>
+                <ul>
+                  <li>Vermeiden Sie einen Tag lang Sonnenstrahlung, Solarium, Sauna und Schwimmbad</li>
+                  <li>Verzichten Sie einen Tag auf sportliche Aktivitäten</li>
+                  <li>Verwenden Sie unmittelbar danach keine chemischen bzw. alkoholischen Pflegeprodukte</li>
+                  <li>Wenden Sie ein kühlendes, feuchtigkeitsspendendes Aloe-Vera-Gel zur Hautberuhigung an</li>
+                  <li>Führen Sie zweimal pro Woche ein Peeling der enthaarten Hautpartien durch</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordionItem">
+            <h3>
+              <button class="accordionBtn" id="faq4Btn" aria-expanded="false" aria-controls="faq4">
+                <span>Wann kann ein Waxing nicht durchgeführt werden?</span>
+                <span class="accordionIcon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordionContent" id="faq4" role="region" aria-labelledby="faq4Btn">
+              <div>
+                <ul>
+                  <li>Wenn die Haut gereizt, gerötet oder verletzt ist</li>
+                  <li>Wenn Krampfadern oder Venenverletzungen vorliegen</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+    </section>
 
-      <div class="accordionItem">
-        <button class="accordionBtn" aria-expanded="false" aria-controls="faq4">
-          <span>Wann kann ein Waxing nicht durchgeführt werden?</span>
-          <span class="accordionIcon" aria-hidden="true">+</span>
-        </button>
-        <div class="accordionContent" id="faq4" role="region">
-          <ul>
-            <li>Wenn die Haut gereizt, gerötet oder verletzt ist</li>
-            <li>Wenn Krampfadern oder Venenverletzungen vorliegen</li>
-          </ul>
+    <!-- Standort -->
+    <section id="standortSect" class="section" aria-labelledby="standortTitle">
+      <div class="container">
+        <div class="sectionHead reveal">
+          <p class="eyebrow">Standort</p>
+          <h2 id="standortTitle">So finden Sie mich</h2>
+        </div>
+        <div id="standortWrapper" class="reveal">
+          <div id="standortAddressCard">
+            <h3 id="standortHeading">Adresse</h3>
+            <address class="standortAddress">
+              Rödlinghauser 2a<br>
+              32760 Detmold<br>
+              BEAUTY / SUGAR / WAX Detmold
+            </address>
+            <p class="standortNote">Termine nur nach Absprache!</p>
+            <div class="btnRow">
+              <a class="btn btn--gold" href="https://www.google.com/maps/dir/?api=1&destination=R%C3%B6dlinghauser+2a%2C+32760+Detmold" target="_blank" rel="noopener">
+                <svg aria-hidden="true"><use href="#i-pin"/></svg>Route planen
+              </a>
+              <a class="btn btn--ghost-light" href="https://wa.me/4917636343040?text=Hallo%20Swetlana%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20vereinbaren." target="_blank" rel="noopener">
+                <svg aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp
+              </a>
+            </div>
+          </div>
+          <div id="standortMapWrapper">
+            <iframe
+              id="standortMap"
+              title="Standort von Sweta SugarWax auf Google Maps: Rödlinghauser 2a, 32760 Detmold"
+              src="https://www.google.com/maps?q=R%C3%B6dlinghauser+2a,+32760+Detmold&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
         </div>
       </div>
+    </section>
 
-    </div>
-  </section>
-
-  <!-- Standort / Google Maps Section -->
-  <section id="standortSect" aria-labelledby="standortTitle">
-    <div class="sectionTitle">
-      <h2 id="standortTitle">Standort</h2>
-    </div>
-    <div id="standortWrapper">
-      <div id="standortAddressCard">
-        <h3 id="standortHeading">Adresse</h3>
-        <p class="standortAddress">
-          Rödlinghauser 2a,<br>
-          32760 Detmold<br>
-          BEAUTY / SUGAR / WAX Detmold
-        </p>
-        <p class="standortNote">Termine nur nach Absprache!</p>
-        <p class="standortNote">Kontaktieren Sie mich gerne über <a href="https://wa.me/4917636343040" target="_blank" rel="noopener">WhatsApp</a>.</p>
+    <!-- Kontakt -->
+    <section id="contactSect" class="section" aria-labelledby="contactTitle">
+      <div class="container">
+        <div class="contactCard reveal">
+          <div>
+            <p class="eyebrow on-dark">Kontakt</p>
+            <h2 id="contactTitle">Ich freue mich auf Sie</h2>
+            <address id="contactInfo">
+              <a href="tel:+4917636343040"><svg aria-hidden="true"><use href="#i-phone"/></svg>+49 176 36343040</a>
+              <a href="mailto:swetab@web.de"><svg aria-hidden="true"><use href="#i-mail"/></svg>swetab@web.de</a>
+              <a href="https://www.instagram.com/sweta__sugar__wax/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-insta"/></svg>sweta__sugar__wax</a>
+            </address>
+            <div class="btnRow">
+              <a class="btn btn--gold" href="https://wa.me/4917636343040?text=Hallo%20Swetlana%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20vereinbaren." target="_blank" rel="noopener">
+                <svg aria-hidden="true"><use href="#i-chat"/></svg>Termin per WhatsApp
+              </a>
+            </div>
+          </div>
+          <img class="contactMark" src="assets/logo-white.svg" alt="" width="440" height="311" loading="lazy">
+        </div>
       </div>
-      <div id="standortMapWrapper">
-        <iframe
-          id="standortMap"
-          title="Standort von Sweta SugarWax auf Google Maps: Rödlinghauser 2a, 32760 Detmold"
-          src="https://www.google.com/maps?q=R%C3%B6dlinghauser+2a,+32760+Detmold&output=embed"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contactSect">
-    <div class="sectionTitle">
-      <h2>Kontakt</h2>
-    </div>
-    <picture>
-      <source srcset="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/ContactBanner.svg" media="(min-width: 900px)">
-      <img src="https://pub-371d1ebf0258420781da13774e21558f.r2.dev/pics/SVG/MobileContactBanner.svg" alt="Kontakt - Sweta SugarWax in Detmold" id="contactBannerImg">
-    </picture>
-    <address id="contactInfo">
-      <span>Sweta SugarWax &ndash; Sugaring &amp; Waxing in Detmold</span>
-      <span>Rödlinghauser 2a, 32760 Detmold</span>
-      <span><a href="tel:+4917636343040">+49 176 36343040</a></span>
-      <span><a href="mailto:swetab@web.de">swetab@web.de</a></span>
-    </address>
-  </section>
+  </main>
 
   <footer id="legals">
     <div id="legalsLinks">
       <a href="legals.html">Impressum</a>
       <a href="privacypolicy.html">Datenschutz</a>
+      <a href="https://www.instagram.com/sweta__sugar__wax/" target="_blank" rel="noopener">Instagram</a>
     </div>
+    <p class="footerNote">© Swetlana Tabert · Sweta SugarWax · Detmold</p>
   </footer>
+
+  <!-- Feste Terminleiste (nur Smartphone) -->
+  <div class="stickyCta" id="stickyCta">
+    <a class="btn btn--ghost-light" href="tel:+4917636343040"><svg aria-hidden="true"><use href="#i-phone"/></svg>Anrufen</a>
+    <a class="btn btn--gold" href="https://wa.me/4917636343040?text=Hallo%20Swetlana%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20vereinbaren." target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp</a>
+  </div>
 
   <script src="script.js"></script>
 </body>
